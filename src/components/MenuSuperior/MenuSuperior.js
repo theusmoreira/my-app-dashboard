@@ -6,7 +6,7 @@ export default class MenuSuperior extends Component {
   render() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            DashBoard
+            <a href="/" className="navbar-brand">Dashboard</a>
         </nav>
     )
   }
